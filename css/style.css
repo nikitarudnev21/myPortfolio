@@ -1,0 +1,40 @@
+:root{
+    --dark-color: #7c0a02;
+    --dark-color2: #b22222;
+    --light-color:#e25822;
+    --light-color2: #f1bc31;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mansalva', cursive;
+}
+.top-container{
+    background: linear-gradient(to right bottom, var(--dark-color),var(--dark-color2),var(--light-color),var(--light-color2));
+    height: 450px;
+
+}
+
+.top-wrapper{
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.cloud{
+    position: absolute;
+
+}
+.mountain{
+    position: absolute;
+    bottom: 0;
+}
+.cloud1{
+
+}
+.cloud2{
+
+}
